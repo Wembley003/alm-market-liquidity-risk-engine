@@ -1,0 +1,5 @@
+﻿Brecha Repricing Neta (MUSD) = SUM(Fact_ALM_Liquidez_Buckets[Brecha_Repricing_MUSD])
+Sensibilidad Delta NII (+200 bps) = SUM(Fact_ALM_Liquidez_Buckets[Delta_NII_Mas200bps_MUSD])
+Sensibilidad Delta EVE (+200 bps) = SUM(Fact_ALM_Liquidez_Buckets[Delta_EVE_Mas200bps_MUSD])
+Expected Shortfall 99% (MUSD) = SUM(Fact_ALM_Liquidez_Buckets[Expected_Shortfall_99_MUSD])
+Coeficiente Cobertura Liquidez (LCR %) = DIVIDE(AVERAGE(Fact_ALM_Liquidez_Buckets[HQLA_Nivel1_MUSD]), AVERAGE(Fact_ALM_Liquidez_Buckets[Salidas_Netas_Estres_30d_MUSD]), 0)

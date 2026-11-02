@@ -1,0 +1,5 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2024.1.0' version='18.1'>
+  <datasources><datasource caption='Fact_ALM_Liquidez_Buckets' inline='true' name='federated.alm_irrbb_lcr' version='18.1'><connection class='federated'><named-connections><named-connection caption='Fact_ALM_Liquidez_Buckets' name='textscan.alm'><connection class='textscan' directory='../datasets_estrella' filename='Fact_ALM_Liquidez_Buckets.csv' /></named-connection></named-connections></connection></datasource></datasources>
+  <worksheets><worksheet name='1_Escalera_Repricing_IRRBB'><table /></worksheet><worksheet name='2_Sensibilidad_DeltaNII_DeltaEVE'><table /></worksheet><worksheet name='3_Monitoreo_VaR_ES_LCR'><table /></worksheet></worksheets>
+</workbook>
